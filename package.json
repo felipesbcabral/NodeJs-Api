@@ -1,0 +1,10 @@
+{
+  "name": "trabalho-2",
+  "version": "1.0.0",
+  "description": "Projeto de api de Usuarios",
+  "author": "Felipe Cabral",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
