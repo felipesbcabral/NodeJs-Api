@@ -39,7 +39,7 @@ Body:
   ```
 - Login usuário
 
-URL: localhost:3000/users?username=teste <= colocar qualquer nome.
+URL: localhost:3000/users
 
 Method: POST
 
