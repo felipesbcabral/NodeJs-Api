@@ -24,6 +24,10 @@ para deletar você deverá usár um metodo para apagar o cadastro, e pegar o ind
 Por ultimo você deverá fazer o listar usuários enviando uma requisição GET, para fazer isso voce terá que retornar 
 status OK(200) usando json usuários.
 
+## Como executar
+Para executar o projeto é preciso usar o comando:
+```node ./src/server.js```
+
 ## Criar usuário
 
 URL: localhost:3000/users
@@ -78,6 +82,3 @@ Method: GET
 URL: localhost:3000/users?username=teste
 
 Method: DELETE
-
-Para executar o projeto é preciso usar o comando:
-```node ./src/server.js```
