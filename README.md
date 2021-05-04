@@ -25,7 +25,7 @@ Por ultimo você deverá fazer o listar usuários enviando uma requisição GET,
 status OK(200) usando json usuários.
 
 ## Como executar
-Para executar o projeto é preciso usar o comando:
+Para executar o projeto é preciso usar o comando no terminal:
 ```node ./src/server.js```
 
 ## Criar usuário
