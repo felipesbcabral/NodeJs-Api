@@ -24,7 +24,7 @@ para deletar você deverá usár um metodo para apagar o cadastro, e pegar o ind
 Por ultimo você deverá fazer o listar usuários enviando uma requisição GET, para fazer isso voce terá que retornar 
 status OK(200) usando json usuários.
 
-- Criar usuário
+## Criar usuário
 
 URL: localhost:3000/users
 
@@ -37,7 +37,7 @@ Body:
     "password": ""
 }
   ```
-- Login usuário
+## Login usuário
 
 URL: localhost:3000/users
 
@@ -50,7 +50,7 @@ Body:
     "password": ""
 }
   ```
-- Atualizar usuário
+## Atualizar usuário
 
 Query string:
 username
@@ -66,14 +66,14 @@ Body:
     "password": ""
 }
   ```
-- Listar usuários
+## Listar usuários
 
 URL: localhost:3000/users
 
 Method: GET
 
 
-- Deletar usuários
+## Deletar usuários
 
 URL: localhost:3000/users?username=teste
 
