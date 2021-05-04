@@ -25,7 +25,59 @@ Por ultimo você deverá fazer o listar usuários enviando uma requisição GET,
 status OK(200) usando json usuários.
 
 - Criar usuário
+
+URL: localhost:3000/users
+
+Method: POST
+
+Body: 
+```
+{
+    "username": "",
+    "password": ""
+}
+  ```
 - Login usuário
+
+URL: localhost:3000/users?username=teste <= colocar qualquer nome.
+
+Method: POST
+
+Body:
+```
+{
+    "username": "",
+    "password": ""
+}
+  ```
 - Atualizar usuário
+
+Query string:
+username
+
+URL: localhost:3000/users?username=teste <= colocar qualquer nome.
+
+Method: PUT
+
+Body:
+```
+{
+    "username": "",
+    "password": ""
+}
+  ```
 - Listar usuários
+
+URL: localhost:3000/users
+
+Method: GET
+
+
 - Deletar usuários
+
+URL: localhost:3000/users?username=teste
+
+Method: DELETE
+
+Para executar o projeto é preciso usar o comando:
+```node ./src/server.js```
