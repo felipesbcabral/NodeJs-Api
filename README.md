@@ -43,7 +43,7 @@ Body:
   ```
 ## Login usuário
 
-URL: localhost:3000/users
+URL: localhost:3000/login
 
 Method: POST
 
